@@ -1,0 +1,15 @@
+@import "tailwindcss"; 
+
+.flex-row-center {
+    @apply flex flex-row items-center 
+}
+
+@theme {
+    --breakpoint-tlf: 30.75rem;
+    --breakpoint-medium: 54rem; 
+    --breakpoint-long: 61rem;
+    --breakpoint-xl: 67rem;
+    --breakpoint-x2l: 77.93rem;  /*1247px*/
+    --breakpoint-x3l: 87.5rem; /* 1400px*/
+    --breakpoint-x4l: 93.125rem; /* 1492px*/
+}
