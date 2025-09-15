@@ -30,5 +30,5 @@ Requisitos técnicos (aplican a ambas opciones)
 6. Accesibilidad básica: alt en todas las imágenes; roles/aria donde apliquen; buen contraste; focus states visibles para teclado.
 7. Código organizado y comentado. Usa nombres de clases semánticos/personalizados donde lo exige la consigna.
 
-<!-- -->
-npx @tailwindcss/cli -i ./Styles/input.css -o ./Styles/output.css --watch
+<!-- -->  
+npx @tailwindcss/cli -i ./Styles/input.css -o ./Styles/output.css --watch  ml-3 mr-3 medium:ml-3 medium:mr-3 long:ml-4 long:mr-3 xl:mr-5 
