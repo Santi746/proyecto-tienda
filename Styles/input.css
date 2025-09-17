@@ -29,9 +29,26 @@
     @apply text-[12px] p-1 pl-2
 }
 
-.descuento {
-    @apply   
+.hover-bg {
+    @apply hover:bg-gray-100 hover:rounded-lg 
 }
+
+.hover-scale-sm {
+    @apply hover:scale-103 transition-transform duration-200 ease-in-out
+}
+
+.hover-scale-md {
+    @apply hover:scale-120 transition-transform duration-200 ease-out
+}
+
+.hover-bg-thmb {
+    @apply hover:border-4 hover:border-segundary
+}
+
+.hover-eye-card {
+    @apply opacity-0 group-hover:opacity-100 group-hover:-translate-y-8 transition-transform transition-opacity duration-150 absolute bg-amber-500 rounded-4xl w-8 h-8 top-0 right-0 m-1
+}
+
 
 
 @theme {
